@@ -1,7 +1,11 @@
 # Procedural generation of building models
 Implementation of two methods of procedural building models generation: grid placement and squarified treemaps. The main aim of the project is to create logical connections between rooms of specified sizes and applications inside a given floor plan. Blender add-on written in python allows to parametrize, generate and display those plane in visually appealing 3D models. Additional python scripts can be used to analize the generated data and convey scientific research. 
 
-![alt text](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img1.png?raw=true)
+## Example images:
+Examples of building models generated with the application:
+![example image 1](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img1.png?raw=true)
+![example image 2](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img2.png?raw=true)
+
 ## Requirements:
 Add-on was developed with **blender 2.82** and **python 3.8.5**. Using newer versions may require tweaking the differences in blender API.
 
@@ -17,8 +21,6 @@ Add-on was developed with **blender 2.82** and **python 3.8.5**. Using newer ver
 
 ## 3D model generation:
 regardless of the generation method used, the plan can be modelled into a full 3D model. Blender API is used to perform the whole process from extruding walls, through cutting doors and windows, to generating and setting materials.
-
-![alt text](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img2.png?raw=true)
 
 ## Licence:
 The project is part of a master thesis in computer science. Please don't sell or redistribute. Use for educational purposes only.
