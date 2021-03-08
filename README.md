@@ -3,8 +3,8 @@ Implementation of two methods of procedural building models generation: grid pla
 
 ## Example images:
 Examples of building models generated with the application:
-![example image 1](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img1.png?raw=true)
-![example image 2](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img2.png?raw=true)
+- ![example image 1](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img1.png?raw=true)
+- ![example image 2](https://github.com/wojtryb/proceduralBuildingGenerator/tree/master/exampleImages/img2.png?raw=true)
 
 ## Requirements:
 Add-on was developed with **blender 2.82** and **python 3.8.5**. Using newer versions may require tweaking the differences in blender API.
